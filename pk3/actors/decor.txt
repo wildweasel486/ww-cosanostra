@@ -1,0 +1,54 @@
+ACTOR TNTBarrel replaces ExplosiveBarrel
+{
+	Game Doom
+  	SpawnID 125
+  	Health 40
+  	Radius 10
+  	Height 34
+	Scale 0.75
+	Painchance 255
+  	+SOLID
+  	+SHOOTABLE
+  	+NOBLOOD
+  	+ACTIVATEMCROSS
+  	+DONTGIB
+  	+NOICEDEATH
+	PainSound "barrel/impact"
+  	DeathSound "barrel/explode"
+  	Obituary "%o now lacks a face."
+  	States
+  	{
+  	Spawn:
+		TBAR AA 0 A_Jump(128,"Spawn2")
+		TBAR A -1
+		Stop
+	Spawn2:
+	    TBAR B -1
+	    Stop
+  	Death:
+		TBRX A 0 A_SetTranslucent(0.9,1)
+	    TBRX A 2 BRIGHT
+	    TBRX B 2 BRIGHT A_Scream
+	    TBRX C 2 BRIGHT A_SpawnItemEx("WoodFragments",0,0,0,0,0,0,0,32)
+	    TBRX DEFG 2
+		TBRX H 2 BRIGHT A_Explode(100,128)
+	    TBRX IJKLM 2 
+	    Stop
+  	}
+}
+
+
+ACTOR WoodFragments
+{
+	Speed 0
+	Scale 0.75
+	PROJECTILE
+	+NOCLIP
+	States
+	{
+	Spawn:
+		FRAG ABCDEFGHIJKLM 2
+		FRAG N -1
+		Stop
+	}
+}

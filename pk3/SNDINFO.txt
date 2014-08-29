@@ -1,0 +1,119 @@
+$random punch/swing { punch/swing1 punch/swing2}
+punch/swing1 pswing1
+punch/swing2 pswing2
+$random punch/wall { punch/wall1 punch/wall2 punch/wall3 punch/wall4 }
+punch/wall1 pwall1
+punch/wall2 pwall2
+punch/wall3 pwall3
+punch/wall4 pwall4
+$random punch/hit { punch/hit1 punch/hit2 }
+punch/hit1 punch1
+punch/hit2 punch2
+
+bat/swing batswing
+bat/hit bathit
+$random bat/wall  { bat/wall1 bat/wall2 bat/wall3 bat/wall4 bat/wall5 }
+bat/wall1 batwall1
+bat/wall2 batwall2
+bat/wall3 batwall3
+bat/wall4 batwall4
+bat/wall5 batwall5
+
+$random 38special/fire { 38special/fire1 38special/fire2 38special/fire3 }
+38special/fire1 38fire1
+38special/fire2 38fire2
+38special/fire3 38fire3
+38special/pickup 38pickup
+38special/reload 38reload
+38special/empty 38empty
+
+trenchgun/fire TRNFIRE
+trenchgun/backward TRNBACK
+trenchgun/forward TRNFWD
+trenchgun/reload TRNLOAD
+trenchgun/empty TRNEMPTY
+
+thompson/fire THOMFIRE
+thompson/stop THOMSTOP
+thompson/eject THOMOUT
+thompson/insert THOMIN
+thompson/cock THOMCOCK
+
+$random enemy1/alert { enemy1/alert1 enemy1/alert2 enemy1/alert3 enemy1/alert4 enemy1/alert5 enemy1/alert6 enemy1/alert7 enemy1/alert8 enemy1/alert9 enemy1/alert10 enemy1/alert11 enemy1/alert12 enemy1/alert13 enemy1/alert14 enemy1/alert15 enemy1/alert16 enemy1/alert17 enemy1/alert18 enemy1/alert19 enemy1/alert20 enemy1/alert21 enemy1/alert22 enemy1/alert23 enemy1/alert24 enemy1/alert25 enemy1/alert26 enemy1/alert27 enemy1/alert28 enemy1/alert29 enemy1/alert30 enemy1/alert31 enemy1/alert32 enemy1/alert33 enemy1/alert34 enemy1/alert35 enemy1/alert36 enemy1/alert37 enemy1/alert38 enemy1/alert39 enemy1/alert40 enemy1/alert41 enemy1/alert42 enemy1/alert43 enemy1/alert44 enemy1/alert45 }
+enemy1/alert1 1alert1
+enemy1/alert2 1alert2
+enemy1/alert3 1alert3
+enemy1/alert4 1alert4
+enemy1/alert5 1alert5
+enemy1/alert6 1alert6
+enemy1/alert7 1alert7
+enemy1/alert8 1alert8
+enemy1/alert9 1alert9
+enemy1/alert10 1alert10
+enemy1/alert11 1alert11
+enemy1/alert12 1alert12
+enemy1/alert13 1alert13
+enemy1/alert14 1alert14
+enemy1/alert15 1alert15
+enemy1/alert16 1alert16
+enemy1/alert17 1alert17
+enemy1/alert18 1alert18
+enemy1/alert19 1alert19
+enemy1/alert20 1alert20
+enemy1/alert21 1alert21
+enemy1/alert22 1alert22
+enemy1/alert23 1alert23
+enemy1/alert24 1alert24
+enemy1/alert25 1alert25
+enemy1/alert26 1alert26
+enemy1/alert27 1alert27
+enemy1/alert28 1alert28
+enemy1/alert29 1alert29
+enemy1/alert30 1alert30
+enemy1/alert31 1alert31
+enemy1/alert32 1alert32
+enemy1/alert33 1alert33
+enemy1/alert34 1alert34
+enemy1/alert35 1alert35
+enemy1/alert36 1alert36
+enemy1/alert37 1alert37
+enemy1/alert38 1alert38
+enemy1/alert39 1alert39
+enemy1/alert30 1alert40
+enemy1/alert41 1alert41
+enemy1/alert42 1alert42
+enemy1/alert43 1alert43
+enemy1/alert44 1alert44
+enemy1/alert45 1alert45
+$random enemy1/pain { enemy1/pain1 enemy1/pain2 enemy1/pain3 enemy1/pain4 enemy1/pain5 enemy1/pain6 enemy1/pain7 enemy1/pain8 enemy1/pain9 enemy1/pain10 enemy1/pain11 enemy1/pain12 enemy1/pain13 enemy1/pain14 }
+enemy1/pain1 1pain1
+enemy1/pain2 1pain2
+enemy1/pain3 1pain3
+enemy1/pain4 1pain4
+enemy1/pain5 1pain5
+enemy1/pain6 1pain6
+enemy1/pain7 1pain7
+enemy1/pain8 1pain8
+enemy1/pain9 1pain9
+enemy1/pain10 1pain10
+enemy1/pain11 1pain11
+enemy1/pain12 1pain12
+enemy1/pain13 1pain13
+enemy1/pain14 1pain14
+$random enemy1/death { enemy1/death1 enemy1/death2 enemy1/death3 enemy1/death4 enemy1/death5 enemy1/death6 enemy1/death7 enemy1/death8 enemy1/death9 enemy1/death10 enemy1/death11 }
+enemy1/death1 1death1
+enemy1/death2 1death2
+enemy1/death3 1death3
+enemy1/death4 1death4
+enemy1/death5 1death5
+enemy1/death6 1death6
+enemy1/death7 1death7
+enemy1/death8 1death8
+enemy1/death9 1death9
+enemy1/death10 1death10
+enemy1/death11 1death11
+
+$random barrel/explode { barrel/explode1 barrel/explode2 barrel/explode3 }
+barrel/explode1 barrelx1
+barrel/explode2 barrelx2
+barrel/explode3 barrelx3

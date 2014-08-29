@@ -1,0 +1,42 @@
+ACTOR PoliceChief
+{
+  	obituary "%o was caught by the long arm of the law."
+  	health 20
+  	radius 20
+  	height 56
+  	mass 100
+  	speed 8
+	Scale 1.05
+  	painchance 200
+  	dropitem "38Special"
+	AttackSound "38special/fire"
+	BloodColor "11 11 11"
+  	MONSTER
+  	+FLOORCLIP
+  	states
+  	{
+  	Spawn:
+	    PCHF A 10 A_Look
+	    loop
+  	See:
+	    PCHF BBCCDDEE 3 A_Chase
+	    loop
+  	Missile:
+	    PCHF FG 4 A_FaceTarget
+	    PCHF H 3 BRIGHT A_CustomBulletAttack(5,5,1,3)
+		PCHF GF 4
+	    goto See
+  	Pain:
+	    PCHF I 3
+	    PCHF I 3 A_Pain
+	    goto See
+  	Death:
+    	PCHF J 3
+    	PCHF K 3 A_Scream
+    	PCHF L 3 A_NoBlocking
+    	PCHF M 3
+		PCHF N 3
+    	PCHF O -1
+	    stop
+	}
+}
