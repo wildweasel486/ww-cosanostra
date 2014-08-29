@@ -1,7 +1,1 @@
-#include "actors/weapons/fist.txt" // Bare-handed fighting
-//#include "DEC_BAT" // Babe Ruth would be proud
-//#include "DEC_38S" // .38 Special revolver
-//#include "DEC_TRNC" // M1897 Trench Shotgun
-//#include "DEC_THOM" // Thompson M1928 SMG
-//#include "DEC_ENEM" // Enemy definitions
-//#include "DEC_DECO" // Decorative items
+#include "actors/weapons/3-trenchgun.txt" // Winchester trench gun

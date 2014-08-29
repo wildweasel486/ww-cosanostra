@@ -27,11 +27,11 @@ $random 38special/fire { 38special/fire1 38special/fire2 38special/fire3 }
 38special/reload 38reload
 38special/empty 38empty
 
-weapons/trenchgun/fire TRNFIRE
-weapons/trenchgun/backward TRNBACK
-weapons/trenchgun/forward TRNFWD
-weapons/trenchgun/reload TRNLOAD
-weapons/trenchgun/empty TRNEMPTY
+trenchgun/fire TRNFIRE
+trenchgun/backward TRNBACK
+trenchgun/forward TRNFWD
+trenchgun/reload TRNLOAD
+trenchgun/empty TRNEMPTY
 
 thompson/fire THOMFIRE
 thompson/stop THOMSTOP
